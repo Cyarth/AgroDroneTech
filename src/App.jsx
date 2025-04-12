@@ -3,6 +3,8 @@ import Home from './pages/Home.jsx';
 import Servicios from './pages/Servicios.jsx';
 import Contacto from './components/Contacto.jsx';
 import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+
 
 function App() {
   return (
