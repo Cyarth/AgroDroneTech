@@ -1,7 +1,20 @@
-export default function App() {
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Servicios from './pages/Servicios';
+import Contacto from './pages/Contacto';
+import Navbar from './components/Navbar';
+
+function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-green-200">
-      <h1 className="text-4xl font-bold text-green-900">AgroDroneTech 🚀🌱</h1>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/servicios" element={<Servicios />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </>
   );
 }
+
+export default App;
