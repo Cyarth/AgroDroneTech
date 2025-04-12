@@ -1,6 +1,8 @@
 import QueHacemos from '../components/QueHacemos';
 import Beneficios from '../components/Beneficios';
 import CasosDeExito from '../components/CasosDeExito'; // este lo crearé ahora
+import Contacto from '../components/Contacto';
+
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <QueHacemos />
       <Beneficios />
       <CasosDeExito />
+      <Contacto />
+
     </div>
   );
 }
