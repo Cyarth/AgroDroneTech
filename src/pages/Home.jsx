@@ -1,7 +1,7 @@
-import QueHacemos from '../components/QueHacemos';
-import Beneficios from '../components/Beneficios';
-import CasosDeExito from '../components/CasosDeExito';
-import Contacto from '../components/Contacto';
+import QueHacemos from '../components/QueHacemos.jsx';
+import Beneficios from '../components/Beneficios.jsx';
+import CasosDeExito from '../components/CasosDeExito.jsx';
+import Contacto from '../components/Contacto.jsx';
 
 
 
